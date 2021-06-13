@@ -1,0 +1,101 @@
+/*zerando valores padroes*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('/imagem/pexels-george-desipris-748626.jpg');
+    background-position: 90% 35%;
+    font-family: arial;
+}
+
+h1 {
+    color: white;    
+    padding: 20px;
+    text-align: center;
+
+}
+a {     
+    display: block;
+    text-align: center;
+    color: rgb(19, 175, 110);  
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#acessar:hover {
+    color: white;
+    background-color: rgb(31, 13, 13);
+}
+
+#acessar {
+    display: block;
+    margin-left: 5px;
+    background-color: rgb(189, 196, 195);
+    border: none;
+    cursor: pointer;
+    
+}
+
+/* formatando input */
+input {
+    display: block;
+    height: 40px;
+    width: 380px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(189, 196, 195);
+    font-size: 16pt;
+    outline: none;
+    padding: 10px 10px;    
+    background-color: rgba(255, 255, 255, 0.459);
+
+}
+input::placeholder {
+    color: rgb(5, 15, 17);
+}
+  
+input:hover {
+    background-color: rgba(168, 168, 128, 0.5);
+    
+}
+
+/* formatando corpo de formulario */
+div#corpo-form {
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 7px;
+    width: 450px;
+    margin: 150px auto 0px auto
+}
+
+div#corpo-form-card {
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 7px;
+    width: 430px;
+    margin: 70px auto 0px auto;
+}
+
+div#msg-sucesso {
+    width: 440;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(50,205,50,.3);
+    border: 1px solid rgba(34,139,34);
+    
+}
+
+div.msg-erro {
+    width: 440;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(250, 128, 114, .3);
+    border: 1px solid rgba(165,42,42);
+}
